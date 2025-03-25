@@ -2,6 +2,19 @@
 
 This guide provides a step-by-step procedure to install and configure Prometheus and Grafana to monitor multiple AWS EC2 instances running Ubuntu 22.04, using Docker containers for easy management. Prometheus collects metrics, Node Exporter exposes system metrics from each EC2 instance, and Grafana visualizes the data in dashboards.
 
+## Tools:
+
+- **Prometheus**: Collects and stores metrics.
+- **Node Exporter**: Exposes system metrics from each EC2 instance.
+- **Grafana**: Visualizes metrics in dashboards.
+- **Docker**: Simplifies deployment and management.
+- **Environment**: Ubuntu 22.04 on AWS EC2.
+
+## Visualization
+
+![image](https://github.com/user-attachments/assets/f9301eb2-857b-45c9-a621-81deacd5311f)
+
+
 ## Prerequisites
 
 - **AWS EC2 Instances:**
